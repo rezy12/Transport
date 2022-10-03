@@ -1,0 +1,49 @@
+
+    body{
+        background-color: beige;
+    }
+
+
+
+    /*card layout for diffrent layers */
+    .card{
+        background-color: rgb(59, 56, 56);
+        box-shadow: 0 0 20px;
+        border-radius: 5px;
+        margin: 50px 20px 20px 20px;
+        width: calc(33.3333% - 40px);
+        text-align: center;
+        float: left;
+        height: 250px;
+        display: grid;
+    }
+
+    .title{
+        font-size: 25px;
+        color: white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 5% 25%;
+    }
+
+    /*button type check out */
+    .btn {
+        display: block;
+        background-color: #eded45;
+        color: #0a0000;
+        padding: 15px 20px;
+        margin: 25% 10%;
+        border-radius: 25px;
+        box-shadow: rgb(0,0,0,0.9);
+        transition: all 200ms ease-in-out;
+        text-decoration: auto;
+    }
+
+    .btn:hover{
+        transform: scale(20px);
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        cursor: pointer;
+        background-color: #eaea67;
+    }
+
